@@ -11,9 +11,11 @@ foreach $file (@docs) {
 	$nicefile = $file;
 	$nicefile =~ s/\.md/.html/;
 	
-	$link = "<a href=\"$nicefile\">$nicename</a>\n";
+	$link = "<li><a href=\"$nicefile\">$nicename</a></li>\n";
 	$content = $content . $link;
 }
+
+$content = "<ul>$content</ul>";
 
 unless (open($input, "<", "_Layout.html")) {
 	print STDERR "Can't open $filename: $!\n";
