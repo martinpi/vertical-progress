@@ -24,3 +24,11 @@ hr {
 #footer {
 	height: 300px;	
 }
+
+blockquote {
+	font-style: italic;
+	-webkit-margin-start: 0.5em;
+	-webkit-margin-end: 1em;
+	margin-left: 0.5em;
+	margin-right:1em;
+}
