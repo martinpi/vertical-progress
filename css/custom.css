@@ -1,0 +1,34 @@
+
+body {
+ 	font-family: 'Merriweather', serif;
+}
+h1,h2,h3,h4 {
+	font-family: "Dosis", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+img {
+	width: 100%;
+}
+hr {
+	border-top: 1px solid #000;
+}
+
+#header {
+	background-image: url("../img/logo-1500x1500.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 280px 280px;
+	margin: 40px;
+	height: 300px;
+}
+
+#footer {
+	height: 300px;	
+}
+
+blockquote {
+	font-style: italic;
+	-webkit-margin-start: 0.5em;
+	-webkit-margin-end: 1em;
+	margin-left: 0.5em;
+	margin-right:1em;
+}
