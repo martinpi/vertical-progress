@@ -12,6 +12,20 @@ hr {
 	border-top: 1px solid #000;
 }
 
+.table { 
+	display: table; 
+	width: 100%; 
+}
+.tablerow { display: table-row; }
+.tablecell { display: table-cell; }
+
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+
 #header {
 	background-image: url("../img/logo-1500x1500.png");
 	background-repeat: no-repeat;
