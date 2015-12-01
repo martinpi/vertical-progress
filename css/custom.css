@@ -1,9 +1,9 @@
 
 body {
- 	font-family: 'Merriweather', serif;
+	font-family: 'Oswald', sans-serif;
 }
-h1,h2,h3,h4 {
-	font-family: "Dosis", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1,h2,h3,h4,h5 {
+	text-decoration: none;
 }
 img {
 	width: 100%;
@@ -27,13 +27,14 @@ hr {
 }
 
 #header {
-	background-image: url("../img/logo-1500x1500-thin-white.png");
+	background-image: url("../img/logo-1500x1500-thin.png");
 	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: 150px 150px;
-	background-color: #000;
-	margin: 40px;
-	height: 200px;
+	background-position: center center;
+	background-size: 40px 40px;
+	padding: 50px;
+	height: 120px;
+	color: #000;
+	margin-bottom: 2em;
 }
 
 #alt-header {
@@ -45,6 +46,25 @@ hr {
 	height: 200px;
 }
 
+.bgimage {
+	position: relative;
+	width: 100%;
+}
+h5 { 
+	z-index: 100;
+	position: absolute; 
+	top: 0px; 
+	left: 0; 
+	width: 100%; 
+}
+h5 span { 
+	color: white; 
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.7);
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 #footer {
 	background-image: url("../img/logo-1500x1500-thin.png");
