@@ -4,13 +4,31 @@ body {
 }
 h1,h2,h3,h4,h5 {
 	text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+    text-transform: uppercase;
 }
+h2 { font-size: 1.4rem; line-height: 1.5;  letter-spacing: 0rem; }
+h5 { font-size: 1.4rem; line-height: 1.5;  letter-spacing: 0rem; }
+@media (min-width: 550px) {
+	  h5 { font-size: 1.5rem; }
+	  h2 { font-size: 1.5rem; }
+}
+
 img {
 	width: 100%;
 }
 hr {
 	border-top: 1px solid #000;
 }
+
+div h2 { 
+	color: white; 
+	background: #000;
+	padding: 1rem;
+	/*padding-right: 1rem;*/
+}
+
 
 .table { 
 	display: table; 
@@ -59,11 +77,10 @@ h5 {
 }
 h5 span { 
 	color: white; 
-	letter-spacing: -1px;
 	background: rgb(0, 0, 0); /* fallback color */
 	background: rgba(0, 0, 0, 0.7);
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 #footer {
