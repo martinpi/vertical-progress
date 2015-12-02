@@ -53,6 +53,7 @@ div h2 {
 	height: 120px;
 	color: #000;
 	margin-bottom: 2em;
+    text-transform: uppercase;
 }
 
 #alt-header {
@@ -90,6 +91,7 @@ h5 span {
 	background-size: 75px 75px;
 	margin: 40px;
 	height: 400px;
+    text-transform: uppercase;
 }
 
 .icon {
